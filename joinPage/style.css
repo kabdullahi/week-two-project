@@ -1,0 +1,59 @@
+#navImg {
+  background-color: red;
+  width: 75px;
+  height: 75px;
+  text-align: left;
+}
+a {
+  color: white;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 225px;
+}
+nav {
+  background-color: aqua;
+  display: flex;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+footer{
+  color: white;
+}
+}
+.profile{
+  display: flex;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#Home {
+  background-color: #00A5BF;
+  padding: 25px;
+}
+#Calendar {
+  background-color: #00B7D3;
+  padding: 25px;
+}
+#Join {
+  background-color: #00D5E7;
+  padding: 25px;
+}
+#joinFilm{
+  background-color: #F5005B;
+  color: white;
+  width: 150px;
+  height: 60px;
+}
+#additionalInput{
+  width: 660px;
+  height: 50px;
+}
+.info div{
+  flex-basis: 45%;
+}
