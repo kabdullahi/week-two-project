@@ -34,19 +34,25 @@ body{
 h2 {
   color: white;
 }
+
 .sectionTwo {
   background-color: #0B1942;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
 }
 #picOne{
   height: 300px;
   width: 215px;
 }
+.partOne, partTwo, partThree {
+  width: 30%;
+}
 .partFour{
   background-color: #E2E2E2;
   display: flex;
   height: 340px;
-  width: 475px;
+  flex-basis: 35%;
 }
 .partFive{
   background-color: #E2E2E2;
@@ -59,4 +65,19 @@ h2 {
 }
 .title{
   color: aqua;
+}
+.out{
+  padding: 25px;
+}
+.in{
+background-color: #0B1942;
+color: white;
+font-size:
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 544px) {
+
 }

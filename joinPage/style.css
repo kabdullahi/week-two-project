@@ -22,7 +22,6 @@ body{
 footer{
   color: white;
 }
-}
 .profile{
   display: flex;
 }
@@ -56,4 +55,10 @@ footer{
 }
 .info div{
   flex-basis: 45%;
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 544px) {
+
 }

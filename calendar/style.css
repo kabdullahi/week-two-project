@@ -25,10 +25,36 @@ body{
   background-color: #00D5E7;
   padding: 25px;
 }
+
 .bigPart{
   background-color: #0B1942;
   color: white;
 }
+.outterBox{
+  height:140px;
+  width: 14%;
+  background-color: white;
+  border: 0.5px solid #0B1942;
+
+}
+.innerBox{
+  background-color: #0B1942;
+  width: 15%;
+  padding: 4px;
+}
+.redBox{
+  background-color: red;
+}
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
 footer{
   color: white;
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 544px) {
+
 }
